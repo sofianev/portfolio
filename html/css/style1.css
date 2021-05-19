@@ -1,0 +1,12 @@
+.project-detail .carousel,
+    .project-detail .carousel-inner,
+    .project-detail .carousel-inner .item {
+      height: 500px; }
+    .project-detail .item:nth-child(1) {
+      background: url(../img/gallery4.jpg); }
+    .project-detail .item:nth-child(2) {
+      background: url(../img/gallery4.jpg); }
+    .project-detail .item:nth-child(3) {
+      background: url(../img/gallery4.jpg); }
+
+
