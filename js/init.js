@@ -488,17 +488,17 @@ $(document).on('click', '#goto_box_1', function (e) {
         dynamicEl: [ {
             'src': 'img/gallery1.jpg',
 			
-            'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
+            'subHtml': "<p>la page d'accuiell de cette site ....</p>"
         },
 		{
             'src': 'img/gallery2.jpg',
 			
-            'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
+            'subHtml': "<p>description de le produit ....</p>"
         },
 		{
             'src': 'img/gallery3.jpg',
 			
-            'subHtml': "<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>"
+            'subHtml': "<p>Certains produits par catégorie...</p>"
         }]
     })
  
@@ -511,11 +511,19 @@ $(document).on('click', '#goto_box_2', function (e) {
 		thumbnail: false,
 		hash:false,
 		autoplay:true,		
-        dynamicEl: [{
-            "poster": 'img/gallery55.jpg',
-			"html":'#video1',
-            'subHtml': '<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>'
-        }]
+		dynamicEl: [{
+            'src': 'img/gallery47.jpg',
+            'subHtml':"<p>la page d'accuiell de cette site ....</p>"
+        },
+		{
+            'src': 'img/gallery45.jpg',
+            'subHtml': "<p> Manage des clients  ....</p>"
+        },
+		{
+            'src': 'img/gallery58.jpg',
+			'subHtml': "<p> Manage des affaires ...</p>"
+        }
+	]
     })
  
 });
@@ -529,8 +537,17 @@ $(document).on('click', '#goto_box_3', function (e) {
 		autoplay:true,
         dynamicEl: [{
             'src': 'img/gallery22.jpg',
-            'subHtml': "<h4>Bowness Bay</h4><p> un site e-commerce basé sur WordPress ...</p>"
-        }]
+			'subHtml':"<p>la page d'accuiell de cette site ....</p>"
+        },
+		{
+            'src': 'img/gallery23.jpg',
+			'subHtml': "<p>description de le produit ....</p>"
+        },
+		{
+            'src': 'img/gallery24.jpg',
+			'subHtml': "<p> multiple produits par catégorie...</p>"
+        }
+	]
     })
  
 });
