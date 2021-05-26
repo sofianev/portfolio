@@ -5,6 +5,6 @@
     .project-detail .item:nth-child(1) {
       background: url(../img/w1.jpg); }
     .project-detail .item:nth-child(2) {
-      background: url(../img/w2.jpg); }
-    .project-detail .item:nth-child(3) {
       background: url(../img/w3.jpg); }
+    .project-detail .item:nth-child(3) {
+      background: url(../img/w2.jpg); }
